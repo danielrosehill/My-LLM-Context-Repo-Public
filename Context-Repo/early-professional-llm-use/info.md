@@ -1,0 +1,14 @@
+## Early Professional LLM Use
+
+**Summary:** Daniel's first significant professional use of an LLM involved a project with the International Foundation for Valuing Impacts. He used a local LLM to explore potential applications and provide insights for the initiative.
+
+**Key Points:**
+
+* Daniel used an LLM to help with preparations for an initiative at the International Foundation for Valuing Impacts. 
+* He explored the potential applications of LLMs in various aspects of the project.
+
+**Examples:**
+
+* Modeling political scenarios related to the project.
+* Identifying key stakeholders for the project.
+* Generating potential guest lists for events.
