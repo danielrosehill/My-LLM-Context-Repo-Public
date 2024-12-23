@@ -2,14 +2,31 @@
 
 ## Purpose Statement
 
-Ephemeral and shallow contexts are some of the challenges facing LLM users today. Technologies like RAG (we hope!) will greatly enhance LLMs' ability to recall saved contextual data about users. But while that's maturing, I'm working on a "context repo".
+The purpose of this repository is to demonstrate a small aggregation of contextual data about an individual (specifically me!) for evaluation as a seeding source of contextual data in experimenting with different approaches to RAG and context-setting in the much smaller personal implementation use case.
 
-The idea is something like an (ideally) structured repository of machine-readable data which can be combined as required to provide specific chunks of context to LLMs in order to ground and improve responses. 
+The LLM code generated folder is a transcript of an experiment that I tried using a large language model to conduct a context setting interview in which I instructed it to ask me questions and then gather them into specific themes intended to generate these context snippets.
 
-This public version of my context repo was just an experiment to conduct an "interview" with Google Gemini in order to populate something publicly in order to exchange ideas for how best to structure this kind of small dataset with LLM enthusiasts and devs.
+These files, which I call context snippets, are simply small textual files, usually markdown, containing contextual pieces of data about a common subject. The intention is to consolidate them into vector storage through a data pipeline.
 
-The actual context vault is very unlikely to be of interest to anybody else, but feel free to peruse for structure, etc. 
+## LLM Assistants For Creating "Context Snippets"
 
+I've developed some LLM assistants expressly for the purpose of helping to create these context snippets from text formatted more naturally, such as in large blocks of text or in dictated format. 
+
+This tool is an assistant which helps the user to identify specific pieces of context data to set for this purpose. 
+
+https://huggingface.co/chat/assistant/6762d5b9bb93201f4b42bcbd
+
+This utility attempts to isolate contextual data from the surrounding text. 
+
+https://huggingface.co/chat/assistant/6769775b53155b6690e86d5c
+
+This utility is specifically intended to generate these contact snippets from dictated text, which is useful as it's a quite natural way of creating this information. 
+
+https://huggingface.co/chat/assistant/6768d07954c6d31d32d3786e
+
+This assistant serves much the same purpose, but is configured to be a little bit broader. It has in its configuration the ability to conduct these context setting interviews with the user if that is the chosen direction for the interaction. 
+
+https://huggingface.co/chat/assistant/67624b04c43bc16e05331a06
 
 ## Use Case Statement
 
